@@ -229,4 +229,12 @@ export class CyEditorComponent implements OnInit {
     public delete() {
         this.UR.do('remove', this.cy.$(':selected'));
     }
+    public select() {
+        this.cy.userPanningEnabled(false);
+        this.cy.boxSelectionEnabled(true);
+    }
+    public pan() {
+        this.cy.autolock( true );
+        this.cy.userPanningEnabled(true);
+    }
 }

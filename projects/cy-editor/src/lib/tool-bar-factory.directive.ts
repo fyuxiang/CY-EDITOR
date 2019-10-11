@@ -18,7 +18,8 @@ const spanMap = {
     paste: '粘贴',
     selectAll: '全选',
     delete: '删除',
-
+    pan: '平移',
+    select: '选择'
 };
 @Directive({
     selector: '[appCommander]'

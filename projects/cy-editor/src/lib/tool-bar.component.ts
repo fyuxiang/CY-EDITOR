@@ -18,7 +18,7 @@ import { Component, OnInit, AfterViewInit, ElementRef, Input, Renderer2, forward
 export class ToolBarComponent implements OnInit {
     @Input() option: any;
     cy: any;
-    orders: string[] = ['enlarge', 'shrink', 'fit', 'undo', 'redo', 'copy', 'paste', 'delete', 'selectAll'];
+    orders: string[] = ['enlarge', 'shrink', 'fit', 'undo', 'redo', 'copy', 'paste', 'delete', 'selectAll', 'pan', 'select'];
     constructor(private el: ElementRef,
         public rd: Renderer2) {
     }
