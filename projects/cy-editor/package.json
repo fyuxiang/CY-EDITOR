@@ -1,0 +1,12 @@
+{
+  "name": "cy-editor",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0",
+    "@angular/compiler": "~7.1.0",
+    "cytoscape": "^3.8.2",
+    "cytoscape-dagre": "^2.2.2",
+    "cytoscape-edgehandles": "^3.6.0"
+  }
+}
